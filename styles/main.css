@@ -8,13 +8,25 @@ body {
     font-family: "Yomogi";
 }
 
-
 #coolvetica {
     font-family: 'CoolveticaRg-Regular', sans-serif;
+    letter-spacing: 1px;
 }
 
 .lessspace {
     line-height: 0.6;
+}
+
+#roundbox {
+    border-radius: 21px;
+    border-width: 0.7px;
+    border-color:#2d2d2d;
+    border-style: solid;
+    padding-left: 9.2em;
+    padding-right: 9.2em;
+    padding-bottom: 8.2em;
+    box-shadow: 0 0 15px 2px #2d2d2d;
+    background-color: #030303;
 }
 
 .asteroid {
