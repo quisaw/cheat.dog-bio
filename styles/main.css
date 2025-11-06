@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-color: #3d3d3d;
+    background-color: #1d1d1d;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -15,6 +15,11 @@ body {
 
 .lessspace {
     line-height: 0.6;
+}
+
+#plswork h2, #plswork h3 {
+    display: inline-block;
+    margin-right: 0.2em;
 }
 
 #roundbox {
