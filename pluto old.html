@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pluto</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="pluto" />
+    <meta name="description" content="i made ts for my discord :4head_slap:" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta content="cheat.dog bio" property="og:title" />
+    <meta content="look at pluto's bio" property="og:description" />
+    <meta content="http://quisaw.github.io/" property="og:url" />
+    <meta content="https://cdn.discordapp.com/avatars/277449713085841408/eb0f02d760d96b3f0912380258f5dfec.webp" property="og:image" />
+    <meta content="#fc96ff" data-react-helmet="true" name="theme-color" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="styles/main.css?newcache03" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yomogi"> <!-- Import font "Yomogi" from googleapi -->
+    <link rel="icon" href="images/pluto.png" />
+</head>
+    <body>
+        <section class="nameimage">
+            <hr>
+            <h1 id="yomogi">pluto's personal page</h1>
+            <div><img src="images/asteroid1.png" class="asteroid" alt="asteroid" /></div>
+            <hr>
+        </section>
+
+        <section class="mainsection, centeredtext">
+            <section id="plswork">
+                <h2>Hello i am </h2> <h3 id="name">Pluto</h3>
+            </section>
+            <section class="abtme">
+                <h3>About me</h3>
+                <hr width="13%">
+                <p>My name is pluto, I enjoy playing video games, talking to friends and coding (sometimes)</p>
+                <hr />
+                <section class="langs">
+                    <h2>The programming languages that I know are:</h2>
+                    <a href="https://www.w3schools.com/html/default.asp"> <img src="images/HTML5.svg" alt="HTML5 logo" width="55em" height="55em"> </a> <a href="https://www.w3schools.com/css/default.asp"> <img src="images/CSS.svg" alt="CSS logo" width="55em" height="55em"> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> <img src="images/JS.svg" alt="JavaScript logo" width="55em" height="55em"> </a> <a href="https://dotnet.microsoft.com/en-us/languages/csharp"> <img src="images/CSharp.svg" alt="C Sharp logo" width="55em" height="55em"> </a>
+                </section>
+            </section>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+        <script>
+            gsap.registerPlugin(SplitText);
+
+            let split = SplitText.create("#plswork h3", {type: "chars, words"});
+
+            gsap.to(".asteroid", {
+                x: 1058,
+                y: -1048,
+                duration: 0,
+                delay: 0,
+                repeat: 0
+            });
+
+            gsap.to(".asteroid", {
+                x: -1058,
+                y: 1048,
+                duration: 1.6,
+                delay: 0.3,
+                repeat: 0,
+                ease: "expoScale(3,2,power2.inOut)"
+            });
+
+            gsap.from(split.chars, {
+                duration: 1,
+                stagger: 0.20,
+                yoyo: true,
+                y: -50,
+                loop: 1,
+                ease: "bounce.out"
+            });
+        </script>
+
+        <footer>
+            <hr class="footerhr" class="lessspace">
+            <p class="lessspace">Copyright &copy; 2025 | pluto</p>
+    </footer>
+  </body>
+</html>
