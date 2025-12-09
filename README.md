@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/quisaw/quisaw.github.io/image?font=Rokkitt&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-<p id="description">Cheat.dog is a little site that I'm going to be using to host custom user bio's on. This is not public or applicant based it is for my friends and my friends only. Yes the repo is called "quisaw.github.io" but the site itself is hosted at https://cheat.dog/</p>
+<p id="description">Cheat.dog is a little site that I'm going to be using to host custom user bio's on. This is not public or applicant based it is for my friends and my friends only. </p>
 
 <p align="center"><img src="https://img.shields.io/badge/Cheat.dog%20Bio%20Site-8A2BE2" alt="shields"><img src="https://img.shields.io/badge/What%20The%20FUCK%20Is%20a%20Dog-85DEE6" alt="shields"></p>
 
